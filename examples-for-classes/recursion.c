@@ -15,5 +15,6 @@ void print_raw_array_n_times(int n_times) {
     }
 }
 int main() {
+    // произойдёт переполнение стека
     print_raw_array_n_times(500000);
 }
